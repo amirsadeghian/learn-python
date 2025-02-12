@@ -22,3 +22,6 @@ conn.commit()
 results = cur.fetchall()
 for result in results:
     print(result[0]+' - '+result[1])
+
+
+cur.close()
