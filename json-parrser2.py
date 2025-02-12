@@ -8,4 +8,5 @@ uh = urllib.request.urlopen(url)
 data = uh.read()
 
 dt = json.loads(data)
+
 print(dt['features'][0]['properties']['plus_code'])
